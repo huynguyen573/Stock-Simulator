@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="UseCases.PortfolioCreationUseCase.UserGUI">
+  <grid id="27dc6" binding="userPanel" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="1" left="1" bottom="1" right="1"/>
+    <constraints>
+      <xy x="-4" y="-1" width="722" height="437"/>
+    </constraints>
+    <properties>
+      <alignmentX value="0.5"/>
+      <foreground color="-67841"/>
+      <minimumSize width="650" height="400"/>
+      <preferredSize width="800" height="500"/>
+      <requestFocusEnabled value="true"/>
+    </properties>
+    <border type="bevel-lowered" title="">
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="f983c" class="javax.swing.JButton" binding="logOut">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Logout"/>
+        </properties>
+      </component>
+      <grid id="c6d69" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="2" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="400"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="5e0b8" class="javax.swing.JLabel" binding="portfoliosTitle">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="324" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="22" style="1"/>
+              <text value="Portfolios:"/>
+            </properties>
+          </component>
+          <scrollpane id="779ce">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="7a3f7" class="javax.swing.JList" binding="portfolios">
+                <constraints/>
+                <properties>
+                  <background color="-67841"/>
+                  <dropMode value="USE_SELECTION"/>
+                  <focusable value="true"/>
+                  <font size="20"/>
+                  <foreground color="-14518587"/>
+                  <model>
+                    <item value="Test Obnj"/>
+                    <item value="Portfolio 2"/>
+                  </model>
+                  <opaque value="true"/>
+                  <selectionMode value="2"/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+      <grid id="8d092" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="50" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="c0df5" class="javax.swing.JLabel" binding="username">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="26" style="1"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="b026d" class="javax.swing.JLabel" binding="lastLogin">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="18" style="1"/>
+          <horizontalAlignment value="10"/>
+          <text value="Last login: "/>
+        </properties>
+      </component>
+      <component id="db788" class="javax.swing.JButton" binding="createPortfolio">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="10" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="New Portfolio"/>
+        </properties>
+      </component>
+      <component id="66a39" class="javax.swing.JButton" binding="goToLeaderboard">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Leaderboard"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
